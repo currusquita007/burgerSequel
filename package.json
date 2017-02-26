@@ -1,0 +1,32 @@
+{
+  "name": "eat-a-burger",
+  "version": "1.0.0",
+  "description": "App to allow user to order burgers and visualize which one has been eaten",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/currusquita007/burger.git"
+  },
+  "keywords": [
+    "order",
+    "burger",
+    "store"
+  ],
+  "author": "Ana Suarez Negreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/currusquita007/burger/issues"
+  },
+  "homepage": "https://github.com/currusquita007/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.2"
+  }
+}
